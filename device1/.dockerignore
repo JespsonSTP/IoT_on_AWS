@@ -1,0 +1,5 @@
+.git
+**/modules
+**/modules/*.py
+**/__pycache__
+*.pyc

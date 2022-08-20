@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  device1:
+      build: device1
+      container_name: device1
+      #command: flask --app device1 --debug run
+      volumes:
+        - ./device1:/app
+      ports:
+        - "5000:5000"
+    #links:
+    #   - database
+  
+
+  
