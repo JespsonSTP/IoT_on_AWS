@@ -4,7 +4,7 @@ services:
   device1:
       build: device1
       container_name: device1
-      #command: flask --app device1 --debug run
+      command: flask --app device1 --debug run
       volumes:
         - ./device1:/app
       ports:
